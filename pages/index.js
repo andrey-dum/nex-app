@@ -53,7 +53,7 @@ const items = [
  
 ];
 
-const URL = 'http://localhost:3000/api/hello';
+const URL = '/api/hello';
 
 export default function Home() {
   const [data, setData] = useState(null);
