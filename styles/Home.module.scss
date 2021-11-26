@@ -1,0 +1,42 @@
+.mainContainer {
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.mainText {
+  max-width: 480px;
+  font-size: 58px;
+  font-weight: 700;
+}
+
+.secondaryText {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 34px;
+  font-weight: 300;
+  margin: 15px 0 20px 0;
+  padding: 0 15px;
+}
+
+
+.cardWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+
+  @media (max-width: 600px) {
+      flex-direction: column;
+  }
+}
+

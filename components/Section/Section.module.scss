@@ -1,0 +1,30 @@
+.section {
+    padding: 50px 0;
+
+    .sectionContent {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &.flexColumn {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+
+    .sectionHeader {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+
+    .sectionTitle {
+        font-weight: bold;
+        font-size: 32.9px;
+        letter-spacing: 0.5875px;
+        color: #212353;
+    }
+
+  
+    
+}
